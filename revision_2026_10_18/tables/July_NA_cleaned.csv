@@ -1,0 +1,42 @@
+year,era,scenes,raw,harmonized,z_raw,z_harmonized,event,observation_status
+1985,TM,1,0.195,0.214,0.02,0.13,Not specified,Observed
+1986,TM,0,NA,NA,NA,NA,Not specified,No scenes; interpolation removed
+1987,TM,1,0.193,0.212,-0.06,0.05,Not specified,Observed
+1988,TM,1,0.188,0.207,-0.25,-0.14,Not specified,Observed
+1989,TM,0,NA,NA,NA,NA,Not specified,No scenes; interpolation removed
+1990,TM,1,0.188,0.206,-0.27,-0.16,Not specified,Observed
+1991,TM,0,NA,NA,NA,NA,Not specified,No scenes; interpolation removed
+1992,TM,1,0.206,0.225,0.48,0.59,Not specified,Observed
+1993,TM,1,0.192,0.21,-0.1,0.01,Not specified,Observed
+1994,TM,0,NA,NA,NA,NA,Not specified,No scenes; interpolation removed
+1995,TM,1,0.2,0.218,0.22,0.33,Not specified,Observed
+1996,TM,0,NA,NA,NA,NA,Not specified,No scenes; interpolation removed
+1997,TM,1,0.197,0.216,0.11,0.21,Not specified,Observed
+1998,TM,1,0.189,0.207,-0.22,-0.11,Not specified,Observed
+1999,TM + ETM+,2,0.199,0.215,0.19,0.18,Not specified,Observed
+2000,TM + ETM+,2,0.205,0.221,0.43,0.42,Not specified,Observed
+2001,TM + ETM+,2,0.167,0.182,-1.1,-1.11,Yes,Observed
+2002,TM + ETM+,2,0.196,0.212,0.07,0.05,Not specified,Observed
+2003,TM + ETM+ SLC-off,2,0.185,0.2,-0.39,-0.4,Not specified,Observed
+2004,TM + ETM+ SLC-off,2,0.19,0.205,-0.19,-0.2,Not specified,Observed
+2005,TM + ETM+ SLC-off,2,0.185,0.201,-0.37,-0.38,Not specified,Observed
+2006,TM + ETM+ SLC-off,2,0.198,0.214,0.15,0.14,Not specified,Observed
+2007,TM + ETM+ SLC-off,2,0.19,0.206,-0.17,-0.18,Not specified,Observed
+2008,TM + ETM+ SLC-off,2,0.202,0.218,0.32,0.31,Not specified,Observed
+2009,TM + ETM+ SLC-off,2,0.182,0.197,-0.51,-0.52,Yes,Observed
+2010,TM + ETM+ SLC-off,2,0.199,0.215,0.18,0.17,Not specified,Observed
+2011,TM + ETM+ SLC-off,2,0.18,0.196,-0.56,-0.57,Not specified,Observed
+2012,ETM+ SLC-off,1,0.187,0.212,-0.28,0.07,Not specified,Observed
+2013,OLI + ETM+,3,0.222,0.216,1.1,0.23,Not specified,Observed
+2014,OLI + ETM+,3,0.223,0.217,1.16,0.29,Not specified,Observed
+2015,OLI + ETM+,3,0.21,0.204,0.63,-0.24,Not specified,Observed
+2016,OLI + ETM+,3,0.219,0.213,0.97,0.1,Not specified,Observed
+2017,OLI + ETM+,3,0.215,0.209,0.82,-0.05,Not specified,Observed
+2018,OLI + ETM+,3,0.196,0.19,0.08,-0.79,Yes,Observed
+2019,OLI + ETM+,3,0.231,0.225,1.48,0.61,Not specified,Observed
+2020,OLI + ETM+,3,0.217,0.211,0.89,0.01,Not specified,Observed
+2021,OLI + ETM+,3,0.223,0.217,1.14,0.27,Not specified,Observed
+2022,OLI + OLI-2,4,0.23,0.224,1.43,0.56,Not specified,Observed
+2023,OLI + OLI-2,4,0.219,0.213,0.97,0.1,Not specified,Observed
+2024,OLI + OLI-2,4,0.223,0.217,1.12,0.25,Not specified,Observed
+2025,OLI + OLI-2,4,0.224,0.218,1.2,0.33,Not specified,Observed

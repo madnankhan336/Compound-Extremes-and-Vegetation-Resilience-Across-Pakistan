@@ -1,0 +1,126 @@
+Reviewer 1 Comment 3 targeted GEE chip checks
+
+RUN THIS FILE
+10_R1C3_GEE_Small_Chips.js
+
+1. Open https://code.earthengine.google.com/ in your browser and select your
+   existing authorized Earth Engine project. No project ID is hardcoded.
+2. Create a new script and paste the ENTIRE JavaScript file, including the
+   CHIP_DEFINITIONS at the top. Save it as R1C3_Small_Chips.
+3. Click Run. The map displays the ten chip outlines and the Console shows
+   small previews. Only those chips are processed; the map's country-scale
+   view does not mean country-wide imagery processing.
+4. Open Tasks. Five CSV export tasks appear. Click Run for each task.
+   They export tables only, not satellite imagery. Wait until tasks finish.
+5. Retrieve the five CSV files from Google Drive folder Adnan_R1C3_GEE_Chips
+   and share them for interpretation. If a task fails, retain its exact error.
+
+SMALL TEST OPTION
+Set CFG.maxChips to 1 for a first quick test, then use 10 for the full intended
+pilot. Disable individual run... flags to run modules separately if needed.
+There is no all-Pakistan imagery export or full 1985-2025 reconstruction.
+
+DESIGN
+Ten small chips: two per elevation band, selected reproducibly from the exact
+existing NDVI grid. Each is one original grid-cell footprint, approximately
+0.05 degrees (about 5 km across; actual dimensions vary with latitude).
+Chip_manifest.csv records cell IDs, coordinates, elevation and selection fields.
+
+Selection uses seed 20261014, elevation-band stratification, broad 2014 land
+cover and spatial separation. Where available, irrigated cropland is paired
+with natural vegetation; not every elevation band contains both. Selection
+does not depend on suppression, recovery or agreement between sensors.
+These purposive chips are a targeted test, not a representative probability
+sample of the entire country or a complete confounder-adjusted experiment.
+
+Main comparison years:
+2001: Landsat 5 versus Landsat 7.
+2014: Landsat 7 versus Landsat 8.
+2022: Landsat 8 versus Landsat 9.
+Monthly sensor checks use January, April, July and October only.
+Seasonal profiles use twelve MODIS months in each of these three years.
+Five individual source-probe months are 1999-04, 2000-07, 2005-07, 2014-07,
+and 2022-07. These are small additional probes, not full annual reconstructions.
+
+THE FIVE OUTPUT TABLES
+01_covariates.csv (30 rows): annual MODIS land-cover classes and chip fractions
+for forest, shrub/savanna, grass, crops, mixed crop/natural vegetation,
+snow/ice and barren land. Also includes a static 2010 irrigation/rainfed
+cropland proxy from GFSAD1000. Cell_id/year allows linking to R event records.
+
+02_sensor_P75_checks.csv (120 rows): sensor-specific pixelwise monthly P75,
+QA-screened clear-observation counts and agreement on shared valid 30m pixels.
+Reports bias B-A, median difference, MAE, RMSE, descriptive spatial correlation
+and coverage. At least two clear observations per pixel, 100 common pixels
+and 20 percent common area are required for reported agreement statistics.
+These are coverage rules, not automatic sensor-equivalence acceptance margins.
+
+03_seasonal_profiles.csv (360 rows): monthly QA-screened MODIS NDVI, observation
+counts, valid area and an exploratory active-greenness indicator. The indicator
+requires >=9 observed months and amplitude >=0.05, then uses monthly NDVI
+above annual minimum +20 percent of amplitude. It is a descriptive greenness
+proxy, not a validated planting/harvest calendar or field vegetation type.
+The 16-day composites are assigned by their start dates.
+
+04_source_fingerprint.csv (300 rows): selected local NDVI values, embedded from
+the existing NetCDF, versus Landsat and MODIS candidate products and
+aggregation methods. Native-point comparisons and chip means are identified
+separately. Errors may reflect source, QA, temporal aggregation, sampling,
+projection or spatial aggregation. Correlation or one small error alone cannot
+identify a product. Only repeated agreement plus metadata/code provenance can
+support identification. Local NA remains blank, not zero.
+
+05_near_time_scene_pairs.csv (120 rows): closest available Landsat scene pair
+within each selected month, at most eight days apart and with matching WRS
+path/row. Uses shared QA-valid 30m support and the same coverage requirements.
+Scene IDs and actual date differences are recorded. Single-scene checks do
+not require the monthly two-observation rule. Near-time comparisons reduce
+but do not eliminate phenological and acquisition-condition differences.
+
+Some rows will be unassessable, especially winter mountain chips. That is a
+real finding about observation coverage. Empty rows or blank statistics must
+not be interpreted as perfect sensor agreement or no vegetation response.
+
+QUALITY AND MISSING DATA
+Landsat Collection 2 Level 2 reflectances use scale 0.0000275 and offset -0.2.
+QA masks exclude fill, dilated cloud, cloud, cloud shadow, snow and saturation;
+Landsat 8/9 cirrus is also screened. NDVI is explicit arithmetic with a
+nonzero-denominator guard and [-1,1] range check. Missing data are never filled.
+No retrospective harmonization coefficient is applied to the existing stack.
+Zeros in observation-count or area-count calculations are counts only.
+
+SOURCE WORKFLOW
+The repository includes the original Landsat P75 export script. A revised
+copy under upstream/ disables short-gap filling. Actual export identifiers
+and subsequent grid preparation are needed to link exports to prepared R
+inputs. The chip comparisons assess selected sites and processing choices;
+they do not establish complete national or full-record sensor equivalence.
+
+WHAT THIS PILOT CAN AND CANNOT ESTABLISH
+It can quantify selected sensor/composite differences and show whether chip
+land cover, irrigation proxies and observed seasonal patterns covary with
+elevation. It cannot prove full-record consistency, historical irrigation
+stability, species-level vegetation differences or an independent causal
+effect of elevation. Thousands of pixels in one chip are not independent
+replicates. Spatial correlations are descriptive, not equivalence tests.
+
+After exports are reviewed, join relevant covariates by cell_id/year/month to
+the existing primary R event records. Evaluate within-cover comparisons and
+common support before adjusting resistance/recovery models. Do not use an
+event's own post-event NDVI to define a causal growing-season control; use an
+independent or pre-event seasonal reference for an adjusted analysis. The
+current-year seasonal-profile export is primarily a diagnostic.
+
+The manuscript reports the completed earlier pilot. The current optional source
+comparison has six candidates per chip-month; the other modules and their
+coverage rules are unchanged. This revision does not rerun or alter prior results.
+
+PRIMARY DOCUMENTATION
+https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_L2
+https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LE07_C02_T1_L2
+https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2
+https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2
+https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1
+https://developers.google.com/earth-engine/datasets/catalog/USGS_GFSAD1000_V1
+https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD13Q1
+https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_8DAY_NDVI

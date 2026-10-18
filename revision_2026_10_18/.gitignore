@@ -1,0 +1,6 @@
+reproduced_tables/
+.Rhistory
+.RData
+__pycache__/
+*.pyc
+desktop.ini

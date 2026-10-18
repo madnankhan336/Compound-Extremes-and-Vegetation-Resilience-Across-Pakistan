@@ -1,3 +1,7 @@
+## Revised manuscript and analysis
+
+The [18 October 2026 revision](revision_2026_10_18/) contains the clean manuscript and supplementary material, revised primary and sensitivity scripts, source tables, figures and reproduction guide. Missing observations remain NA. Use that folder for the revised fixed-reference, delayed-response and censored-recovery framework; the earlier files below remain historical code and outputs.
+
 # Compound Hot–Dry Extremes and Vegetation Resilience Across Pakistan (1985–2025)
 
 > An event-based Landsat NDVI anomaly assessment of vegetation resistance, recovery, and elevation-dependent vulnerability across Pakistan.

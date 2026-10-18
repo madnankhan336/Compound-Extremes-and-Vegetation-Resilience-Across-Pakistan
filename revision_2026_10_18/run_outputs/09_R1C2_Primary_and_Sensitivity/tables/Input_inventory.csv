@@ -1,0 +1,5 @@
+input,path,bytes,md5
+ndvi_file,E:/proj-china/AdnanB/Dataset/netcdfs/ndvi_monthly_1985_2025.nc,180012335,8d0415bcf7d24258042797430bad7a69
+temperature_file,E:/proj-china/AdnanB/Dataset/netcdfs/tc_tmx_monthly_1985_2025.nc,180012335,9576f43cf815a993f8b7593668c08fbe
+precipitation_file,E:/proj-china/AdnanB/Dataset/netcdfs/tc_pr_monthly_1985_2025.nc,180012335,e26a6fa4a25ad6a08ea212521affa90e
+elevation_file,E:/proj-china/AdnanB/Dataset/netcdfs/analysis_outputs/elevation_projected_to_ndviGrid.tif,162254,27fb1021d78b806c42b3aa909912046f

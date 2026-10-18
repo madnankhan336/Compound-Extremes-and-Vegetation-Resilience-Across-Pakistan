@@ -1,0 +1,5 @@
+model,train_period,test_period,n,RMSE,MAE,R2,num_trees,mtry,min_node_size,sample_fraction
+Environment + antecedent NDVI,1985-2014,2015-2025,43720,0.961486380963516,0.690567872251525,-0.436103221506595,800,ranger default,ranger regression default (5),1.0
+Environment without antecedent NDVI,1985-2014,2015-2025,43720,1.5663497802126,1.29468940685536,-2.81133289600749,800,ranger default,ranger regression default (5),1.0
+Environment + spatial + antecedent NDVI,1985-2014,2015-2025,43720,0.953456402737994,0.682447443791193,-0.412215784638257,800,ranger default,ranger regression default (5),1.0
+Environment + spatial without antecedent NDVI,1985-2014,2015-2025,43720,1.56146892341445,1.2945566483764,-2.78761713743615,800,ranger default,ranger regression default (5),1.0

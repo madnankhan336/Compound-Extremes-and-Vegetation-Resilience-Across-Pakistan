@@ -1,0 +1,7 @@
+stratum,belt,share,peak_ndvi,sigma,raw_offset,step2013,z_raw,z_composite,recomputed_z_raw,recomputed_z_composite
+Irrigated cropland,<500 m,22,0.55,0.07,0.0083,-0.018,0.12,-0.26,0.11857142857142856,-0.2571428571428571
+Desert / sparse,<500 m,30,0.12,0.015,0.0202,0.006,1.35,0.4,1.3466666666666667,0.4
+Rain-fed cropland and rangeland,500-1499 m,26,0.25,0.04,0.0166,-0.009,0.42,-0.22,0.415,-0.22499999999999998
+Chir pine and lower temperate forest,1500-2499 m,6,0.5,0.03,0.0096,-0.007,0.32,-0.23,0.32,-0.23333333333333334
+Moist temperate conifer forest,2500-3499 m,4,0.45,0.035,0.011,0.002,0.31,0.06,0.3142857142857142,0.05714285714285714
+Alpine pasture and sparse cover,>=3500 m,12,0.18,0.025,0.0185,0.012,0.74,0.48,0.7399999999999999,0.48

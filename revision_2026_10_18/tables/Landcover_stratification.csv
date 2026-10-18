@@ -1,0 +1,18 @@
+belt,cover,share,suppression,resistance,recovery
+<500 m,Irrigated cropland,40,0.27,0.4,0.5
+<500 m,Desert / sparse,48,0.43,0.065,1.0
+<500 m,Rangeland / grassland,12,0.48,-0.05,1.5
+500-1499 m,Rain-fed cropland,30,0.52,-0.06,1.5
+500-1499 m,Rangeland / grassland,52,0.51,-0.04,1.5
+500-1499 m,Irrigated cropland,10,0.24,0.3,0.5
+500-1499 m,Forest,8,0.4,0.0,1.0
+1500-2499 m,Forest,38,0.38,-0.17,1.5
+1500-2499 m,Rangeland / grassland,40,0.48,-0.2,2.0
+1500-2499 m,Irrigated cropland,9,0.22,0.15,0.5
+1500-2499 m,Desert / sparse,13,0.4,-0.12,2.0
+2500-3499 m,Forest,35,0.27,-0.01,1.9
+2500-3499 m,Rangeland / grassland,40,0.32,-0.04,1.5
+2500-3499 m,Desert / sparse,20,0.33,-0.05,1.5
+2500-3499 m,Irrigated cropland,5,0.2,0.1,0.5
+>=3500 m,Alpine pasture,55,0.28,-0.05,4.0
+>=3500 m,Desert / sparse,45,0.26,-0.045,3.5
