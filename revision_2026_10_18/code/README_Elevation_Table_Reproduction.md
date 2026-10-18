@@ -17,7 +17,7 @@ Provide the following paths in `R1C2_SETTINGS` or through the supported `r1c2.se
 | ndvi_file | ndvi_monthly_1985_2025.nc | Raw monthly NDVI, not already standardized anomalies |
 | temperature_file | tc_tmx_monthly_1985_2025.nc | Monthly maximum temperature in the analysis units |
 | precipitation_file | tc_pr_monthly_1985_2025.nc | Monthly precipitation in the analysis units |
-| elevation_file | analysis_outputs/elevation_projected_to_ndviGrid.tif | Elevation in metres, aligned to the NDVI grid |
+| elevation_file | analysis_outputs/elevation_projected_to_ndviGrid.tif | Elevation in metres from the Copernicus GLO-30 DEM (Google Earth Engine), aligned to the NDVI grid |
 
 The three monthly stacks must have 492 date-indexed layers in order from January 1985 through December 2025. All four inputs must have matching geometry. The study grid is 0.05 degrees in EPSG:4326, 269 rows by 340 columns. The script checks geometry and dates; it does not perform upstream raw-product acquisition, Landsat QA/compositing or grid preparation. Retain missing monthly observations as NA, including October-December 1994; do not interpolate or substitute zeros.
 
