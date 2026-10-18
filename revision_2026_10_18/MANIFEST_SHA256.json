@@ -16,8 +16,8 @@
     "sha256": "e2210ee4a9228d346b3977ddbfa3d176e654b439eb2863e9a0ec050d575842c1"
   },
   "README.md": {
-    "bytes": 4544,
-    "sha256": "3c0793d0da4c8e6f8c6b071dc0a74d51dd94aad720421a4513cf6a946c67b745"
+    "bytes": 4615,
+    "sha256": "1d7d63e74bd48ea6d20a6607097da0650ee229d5c59d3c4b25a4774603500895"
   },
   "code/08_HD_R1C1_Lag_Recovery_Revised.R": {
     "bytes": 38689,
@@ -44,8 +44,8 @@
     "sha256": "400107d712cadf48e94b8f3fd1396d44b7e0a8481708da8db1e442b607af0f48"
   },
   "documents/Manuscript_Clean.docx": {
-    "bytes": 1306998,
-    "sha256": "ea5e1f2c695c3123d5c74e350a3b9eb4a1aed8c7500a4b708d8d78f68f55fd69"
+    "bytes": 1307022,
+    "sha256": "a0afcaf09930cd6e566fa332e3a22f982935509e109b502378dd03e104f32d0f"
   },
   "documents/Supplementary_Clean.docx": {
     "bytes": 8437080,

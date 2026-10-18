@@ -40,4 +40,4 @@ This consolidates existing result tables; it does not rerun the raster analysis.
 
 ## Licence and citation
 
-Code retains the repository's MIT licence; derived data retain CC BY 4.0. Third-party products remain subject to their original distribution terms. Cite the study and the existing record at https://doi.org/10.5281/zenodo.21821042. Updating this GitHub folder does not update that separate record or assign a new DOI.
+Code retains the repository's MIT licence; derived data retain CC BY 4.0. Third-party products remain subject to their original distribution terms. Cite the study and this record: this folder is archived as Zenodo version v1.1.0 (https://doi.org/10.5281/zenodo.23453248), which also retains the v1.0.1 files; https://doi.org/10.5281/zenodo.21821042 always resolves to the latest version.
