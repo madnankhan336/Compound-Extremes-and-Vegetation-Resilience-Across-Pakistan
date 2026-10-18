@@ -1,0 +1,10 @@
+list(input_dir = "E:/proj-china/AdnanB/Dataset/netcdfs/analysis_outputs/09_R1C2_Monthwise_v2_20261014_221940", 
+    ndvi_file = "E:/proj-china/AdnanB/Dataset/netcdfs/analysis_outputs/09_R1C2_Monthwise_v2_20261014_221940/rasters/NDVI_H14_original.tif", 
+    hd_file = "E:/proj-china/AdnanB/Dataset/netcdfs/analysis_outputs/09_R1C2_Monthwise_v2_20261014_221940/rasters/HD_FULL.tif", 
+    elevation_file = "E:/proj-china/AdnanB/Dataset/netcdfs/analysis_outputs/09_R1C2_Monthwise_v2_20261014_221940/rasters/elevation_common_framework_domain.tif", 
+    climate_threshold_reference = "1985-2025 calendar-month P95/P10; strict >/<", 
+    ndvi_reference = "1985-2014 original calendar-month mean and sample SD", 
+    output_parent = "E:/proj-china/AdnanB/Dataset/netcdfs/analysis_outputs/09_R1C2_Monthwise_v2_20261014_221940/frameworks/S_CLIMATE_FULL", 
+    framework_id = "S_CLIMATE_FULL", response_lags = 0:3, recovery_horizon = 12L, 
+    recovery_consecutive_months = 2L, antecedent_months = 6L, 
+    rows_per_block = 10L, max_cells = 0L, verified_start_date_if_missing = "1985-01-01")

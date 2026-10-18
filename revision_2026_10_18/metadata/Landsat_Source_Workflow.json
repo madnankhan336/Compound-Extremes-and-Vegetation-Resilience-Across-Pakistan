@@ -1,0 +1,18 @@
+{
+  "author_confirmation": "Landsat imagery, confirmed 2026-10-18",
+  "original_script_path": "scripts/gee_export_monthly_landsat_ndvi.js",
+  "original_script_sha256": "157a753f67d7c452114942f07eaaa6233c925a60bc8d90915f781ee2f7d0685c",
+  "collections": [
+    "LANDSAT/LT05/C02/T1_L2",
+    "LANDSAT/LE07/C02/T1_L2",
+    "LANDSAT/LC08/C02/T1_L2",
+    "LANDSAT/LC09/C02/T1_L2"
+  ],
+  "monthly_operator": "P75",
+  "spatial_operator": "mean",
+  "original_export_scale_metres": 10000,
+  "original_short_gap_filling": true,
+  "revision_short_gap_filling": false,
+  "new_export_executed": false,
+  "prepared_input_linkage_verified": false
+}

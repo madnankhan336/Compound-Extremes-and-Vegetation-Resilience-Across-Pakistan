@@ -1,0 +1,11 @@
+framework_id,climate_reference,ndvi_reference,ndvi_processing,role,comparison,climate_years,ndvi_years
+PRIMARY_H14_ORIGINAL,H14,H14,original,PRIMARY,Historical seasonal departure,1985-2014,1985-2014
+S_H14_DETRENDED,H14,H14,detrended,SENSITIVITY,Remove secular trend,1985-2014,1985-2014
+S_MATCH_H04_ORIGINAL,H04,H04,original,SENSITIVITY,Shorter matched historical references,1985-2004,1985-2004
+S_MATCH_H04_DETRENDED,H04,H04,detrended,SENSITIVITY,Shorter matched references plus detrending,1985-2004,1985-2004
+S_MATCH_FULL_ORIGINAL,FULL,FULL,original,SENSITIVITY,Full-period matched references,1985-2025,1985-2025
+S_MATCH_FULL_DETRENDED,FULL,FULL,detrended,SENSITIVITY,Full-period matched references plus detrending,1985-2025,1985-2025
+S_CLIMATE_H04,H04,H14,original,SENSITIVITY,Change climate reference only,1985-2004,1985-2014
+S_CLIMATE_FULL,FULL,H14,original,SENSITIVITY,Change climate reference only,1985-2025,1985-2014
+S_NDVI_H04,H14,H04,original,SENSITIVITY,Change NDVI reference only,1985-2014,1985-2004
+S_NDVI_FULL,H14,FULL,original,SENSITIVITY,Change NDVI reference only,1985-2014,1985-2025

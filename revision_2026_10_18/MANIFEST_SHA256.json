@@ -1,0 +1,838 @@
+{
+  ".gitattributes": {
+    "bytes": 9,
+    "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+  },
+  ".gitignore": {
+    "bytes": 73,
+    "sha256": "ce564a31d62d8b5b6b8fad36ca7ae211158e11101f503955b19348e2a0a8182e"
+  },
+  "CHANGELOG.md": {
+    "bytes": 817,
+    "sha256": "48ab1b266402d7e948967f3714bd64df6fa1737859bac8cd0724e3667599b016"
+  },
+  "CITATION.cff": {
+    "bytes": 677,
+    "sha256": "e2210ee4a9228d346b3977ddbfa3d176e654b439eb2863e9a0ec050d575842c1"
+  },
+  "README.md": {
+    "bytes": 4544,
+    "sha256": "3c0793d0da4c8e6f8c6b071dc0a74d51dd94aad720421a4513cf6a946c67b745"
+  },
+  "code/08_HD_R1C1_Lag_Recovery_Revised.R": {
+    "bytes": 38689,
+    "sha256": "30bc699b0021f856b5010d69a9d6ece127c8d9cc3de2c35b53878ed067cd9ef2"
+  },
+  "code/09_HD_R1C2_Primary_Sensitivity_Monthwise_v2.R": {
+    "bytes": 73735,
+    "sha256": "7f8f79a391bcbf498a213291f504417c976aaef93f3997036574e7d6c270d189"
+  },
+  "code/10_R1C3_GEE_How_to_run.txt": {
+    "bytes": 7612,
+    "sha256": "d7fc2d8f15e87ff3823a8e8ad515230a0102e5f9c86a6b274204bcde3ca066da"
+  },
+  "code/10_R1C3_GEE_Small_Chips.js": {
+    "bytes": 29861,
+    "sha256": "b26cb28ceec36b929ab80d5a1b06f910ff5a49c1995e6cb8d51e45b6a7abbe25"
+  },
+  "code/R2C4_8_summarize_existing_outputs.py": {
+    "bytes": 2408,
+    "sha256": "4b995c82f444a760f6d005aaff9c466292f3951d20e551efd29d1194535c41d1"
+  },
+  "code/README_Elevation_Table_Reproduction.md": {
+    "bytes": 6483,
+    "sha256": "400107d712cadf48e94b8f3fd1396d44b7e0a8481708da8db1e442b607af0f48"
+  },
+  "documents/Manuscript_Clean.docx": {
+    "bytes": 1306649,
+    "sha256": "9407d105afe6f7cbafd4ecb19292bd5808c3cf6468f1c905490d29493092911b"
+  },
+  "documents/Supplementary_Clean.docx": {
+    "bytes": 8437080,
+    "sha256": "a7b553114a13829417e6f1a04b1fc8c6e6aeed14fade8164ccbf568078de1d0f"
+  },
+  "figures/Figure_1.png": {
+    "bytes": 104065,
+    "sha256": "0aede631bf44109fd41f9fb381cc0eae266f2621bef9c19685991156e600002f"
+  },
+  "figures/Figure_2.png": {
+    "bytes": 335496,
+    "sha256": "8e76fb4b1ef44d32a7143a3fb386acbe67b92ca6a21cf4f0883c82c6ce0201e6"
+  },
+  "figures/Figure_3.png": {
+    "bytes": 216740,
+    "sha256": "ca7ecfba37b059835b3f5b16217b45e5e16bd19ee78423d6168dfb32f3610883"
+  },
+  "figures/Figure_4.png": {
+    "bytes": 293857,
+    "sha256": "756c6bdca81454f77220cebe535e3819616fce87baa8c7cc652681a877fc6327"
+  },
+  "figures/Figure_5.png": {
+    "bytes": 345444,
+    "sha256": "11799f9011ea1275dcec0639b838be564d47187aba0ae8eea07e01d1947f7ce5"
+  },
+  "figures/Figure_captions.txt": {
+    "bytes": 7362,
+    "sha256": "c9963b8736cf72a9081a4faff0a659bd4635b1793b7af4ebe4d4000119baa73f"
+  },
+  "figures/Figure_S1.png": {
+    "bytes": 1252067,
+    "sha256": "4825ea2097a9dc9ddfcaef9c1e5179e5b47d2950d5285600ea569ceaaa1acbfa"
+  },
+  "figures/Figure_S10.png": {
+    "bytes": 1450103,
+    "sha256": "c4fe7d0f5cdb06dd77b62f5a104da1f127420712729eebf3418a5f705f29f281"
+  },
+  "figures/Figure_S11.png": {
+    "bytes": 391399,
+    "sha256": "a355ddbb13184fff632f31334e8119a2eb97a9cdd15142266ac88f2c767ab346"
+  },
+  "figures/Figure_S12.png": {
+    "bytes": 447054,
+    "sha256": "79783bfd9dce578945c318b2f0dc362a80f47d8e46d3c5bf8ff1af8bd2b07dbb"
+  },
+  "figures/Figure_S13.png": {
+    "bytes": 484800,
+    "sha256": "790182fd28d59bc97b1e46a637603ea308312ae483bc4fcd8bc4c7a774dec604"
+  },
+  "figures/Figure_S14.png": {
+    "bytes": 359849,
+    "sha256": "a93dc22274de15b3fcf0c1f3cbf13830fd7c8bfb872eeb263a219ad3d9dfe68b"
+  },
+  "figures/Figure_S15.pdf": {
+    "bytes": 18262,
+    "sha256": "0d865c0181c2647c35a57b85387167b66f95936833440b920f512299c05e24a4"
+  },
+  "figures/Figure_S15.png": {
+    "bytes": 106993,
+    "sha256": "44b8c4b599350b8287fc57988e8ddd7321aa64864c5981b53aea96a7fd3c34f4"
+  },
+  "figures/Figure_S16.pdf": {
+    "bytes": 15110,
+    "sha256": "9c4b76c9adf12c67ca185a0bf087727c5daca03f21633f5f991ce640c4eb790c"
+  },
+  "figures/Figure_S16.png": {
+    "bytes": 69552,
+    "sha256": "ece9580fd6ed2c7dffdcc665ca957d1742df672976a2d77b7e79134cf0883590"
+  },
+  "figures/Figure_S17.pdf": {
+    "bytes": 26020,
+    "sha256": "886d51645676ba0b8b261d0568aeb40844a7a75f020c4b93f161de2c984cbd25"
+  },
+  "figures/Figure_S17.png": {
+    "bytes": 1000286,
+    "sha256": "f738d8576f0a32307931efcf665ab7f5fb10f51f3ea5695b55e7ab787546cd76"
+  },
+  "figures/Figure_S17.svg": {
+    "bytes": 83584,
+    "sha256": "436f3e841f53588013e28004b927e2995661858dcec2ef6cd3b4859b90ee6508"
+  },
+  "figures/Figure_S17_caption.txt": {
+    "bytes": 601,
+    "sha256": "f7217d45b96ca534341df778139f5633515af8f5023517765ec831df2a0b9a77"
+  },
+  "figures/Figure_S2.png": {
+    "bytes": 561943,
+    "sha256": "d40899894f6db85b35788cf37275f0eb49387c5aa2f7ba1fc983640bf641fe6a"
+  },
+  "figures/Figure_S3.png": {
+    "bytes": 1378507,
+    "sha256": "ac09ad17ef6e4e8e1cd859a12f8b38f7abe9538d7addde1f3316dfc98557b0c0"
+  },
+  "figures/Figure_S4.png": {
+    "bytes": 49176,
+    "sha256": "f197b1f8a96cb027886807426eb2028d9d0e6f79b5f33f1c5c75e0606fc9385d"
+  },
+  "figures/Figure_S5.png": {
+    "bytes": 400833,
+    "sha256": "b9f1e858ccd6ee0b681d850564430fb2ea3c550f4515591bc5ea7d8259504684"
+  },
+  "figures/Figure_S6.png": {
+    "bytes": 240375,
+    "sha256": "3d30170b6a9dd4581f8e9430d5d090879137967d831687b4435402d9d804d268"
+  },
+  "figures/Figure_S7.png": {
+    "bytes": 433277,
+    "sha256": "ad500997ddf697b568d90e68f2c2cf9b45c8a899c4726a264b31cdf93512d15e"
+  },
+  "figures/Figure_S8.png": {
+    "bytes": 508222,
+    "sha256": "22f0afca55530512b4a2b0683a99035e23c9797ddbc9d674c8dcca9f1684c410"
+  },
+  "figures/Figure_S9.png": {
+    "bytes": 345444,
+    "sha256": "11799f9011ea1275dcec0639b838be564d47187aba0ae8eea07e01d1947f7ce5"
+  },
+  "metadata/Framework_manifest.csv": {
+    "bytes": 1110,
+    "sha256": "cad023125c766deca7ab76a3d1734a5b35b12b8a6d3150bffdf23eb53f764840"
+  },
+  "metadata/Input_inventory.csv": {
+    "bytes": 538,
+    "sha256": "7929be8f9c164cd1ff61648cb050df9085ca88c1ef0af74bf8f08bbb9347a8af"
+  },
+  "metadata/Landsat_Source_Workflow.json": {
+    "bytes": 651,
+    "sha256": "cd2c34fdbf0255e988f92de8ffacf1ce509af68a57a3233a030cabba58fa36e7"
+  },
+  "metadata/NA_preservation_check.csv": {
+    "bytes": 82204,
+    "sha256": "823e98c7633eb088f8d72694de1a84de1f4c3977a86887e2812c0ba987b0b53c"
+  },
+  "metadata/sessionInfo.txt": {
+    "bytes": 1396,
+    "sha256": "55355b9441924474a89e692636e51f7a43f5dc088d6bc1b5e68a47ed8e11356a"
+  },
+  "metadata/settings.R": {
+    "bytes": 612,
+    "sha256": "49adda5299953d094106bf01a728cf05ce8b74b019118fb0c74a85355aec4f80"
+  },
+  "tables/Actual_event_contributing_cells_by_elevation.csv": {
+    "bytes": 3893,
+    "sha256": "9375c77ddfbc9b2b7c4ef1b27d41544b6b26660bc410d32c4fd9d5c787433b3b"
+  },
+  "tables/DIAGNOSTIC_TABLE_GUIDE.md": {
+    "bytes": 2887,
+    "sha256": "b625655be428120bbd68beb716d8247840f263a3c94f0a12770e1f16fd125a40"
+  },
+  "tables/Exposure_trend_comparison.csv": {
+    "bytes": 7951,
+    "sha256": "de770785cc54e78d0938889a95eab7a80ee40b9d8cfa61406d16859fb9eca349"
+  },
+  "tables/High_elevation_first_followup_gap_cause.csv": {
+    "bytes": 108,
+    "sha256": "ac7a785dad79222b96377fae1f9f2d43e9c8ed59d86e8f65df50748a2269df6d"
+  },
+  "tables/Historical_contrast_by_elevation.csv": {
+    "bytes": 751,
+    "sha256": "a5cc197dd89c7fdb46bed0d816c978a8f88ff422fee67703b7fe0654f66aac50"
+  },
+  "tables/Historical_RF_antecedent_holdout.csv": {
+    "bytes": 775,
+    "sha256": "463c3ef651ed0eee200dddcdcb60aa23d4dc0549a120093fb63d9681ee67fb37"
+  },
+  "tables/Input_inventory.csv": {
+    "bytes": 538,
+    "sha256": "7929be8f9c164cd1ff61648cb050df9085ca88c1ef0af74bf8f08bbb9347a8af"
+  },
+  "tables/July_NA_cleaned.csv": {
+    "bytes": 2700,
+    "sha256": "ff3aec22b39737c8dfe1b355f9943341172b452049397a262476beae19d74c92"
+  },
+  "tables/Landcover_stratification.csv": {
+    "bytes": 819,
+    "sha256": "7787f33b3f17bc3f4c0565d7c13b471468cabc945ea1a072c412c77bd4231082"
+  },
+  "tables/Month_specific_retention_by_elevation.csv": {
+    "bytes": 212,
+    "sha256": "1f24e789369a0bcf3072afcc4d284be3e3dacd9c1c43c36c7265ac718fd0e14f"
+  },
+  "tables/National_framework_comparison.csv": {
+    "bytes": 1587,
+    "sha256": "555806c6eb5706e244c62ea08e7c93c4ec7f0d471c453f148bc0e6b73a775173"
+  },
+  "tables/NA_preservation_check.csv": {
+    "bytes": 82204,
+    "sha256": "823e98c7633eb088f8d72694de1a84de1f4c3977a86887e2812c0ba987b0b53c"
+  },
+  "tables/Observation_density.csv": {
+    "bytes": 321,
+    "sha256": "98ab2a8568e6011291fed583367fa83a5ebb45d935e12da55fdd2e708f2a7cff"
+  },
+  "tables/P75_P50_2018_monthly_diagnostics.csv": {
+    "bytes": 955,
+    "sha256": "387a732477440def8e854338b9a16825f2b3f048dea917e23fe100645965f8fb"
+  },
+  "tables/P75_P50_selected_year_paired_diagnostics.csv": {
+    "bytes": 1449,
+    "sha256": "6ff8da5878de885ffa8c8e393ffcda49f06a4c31598dd94daae98084b9f2a74a"
+  },
+  "tables/Raw_monthly_input_audit.csv": {
+    "bytes": 119849,
+    "sha256": "c35ca68fffcb79e6951fe43f80183a422c4ba3c59e23d31ff3465ee954660cb9"
+  },
+  "tables/Recovery_clocks.csv": {
+    "bytes": 280,
+    "sha256": "ccad9647fd67d57c224774234d39fa029993d9f3323f827bca29cbacd2e8b22c"
+  },
+  "tables/Resistance_sensitivities.csv": {
+    "bytes": 236,
+    "sha256": "7674b7a8a6970503e11dc48f4447c427b853de8cd38d5eb8f123d9bc4cec8912"
+  },
+  "tables/Same_suppressed_cohort_recovery_comparison.csv": {
+    "bytes": 22379,
+    "sha256": "5dd88145508faaf69517aa281b420b1bb66f5ad708fd56eea3b5b51546ee82b6"
+  },
+  "tables/Sensor_agreement_summary.csv": {
+    "bytes": 1191,
+    "sha256": "4f9da8da4059800d1389ced41d7e194fd228837a65d20eecc43e663bbeed69da"
+  },
+  "tables/Sensor_offsets.csv": {
+    "bytes": 744,
+    "sha256": "b4cc94c74438f3d6a59d30685a960c343892e277321be6c506d8d70df39e01d6"
+  },
+  "tables/Table_S39_P75_P50_selected_year_summary.csv": {
+    "bytes": 415,
+    "sha256": "79a628930f54d771e6d7f85f116c5e10defb578056c017847144ebdfadcc3f69"
+  },
+  "tables/Table_S40_Climate_baseline_trends.csv": {
+    "bytes": 1156,
+    "sha256": "6c3d70a2836f00c3ace4e172f210a44eeeee6286ab546059abc62f388ffc7735"
+  },
+  "tables/Table_S41_Nonobserved_recovery_by_elevation.csv": {
+    "bytes": 1957,
+    "sha256": "51d21751611002070c45c90eb3a5ae3bee7a01df7f39d49ee993abd9887ffba1"
+  },
+  "tables/Weighted_arithmetic_check.csv": {
+    "bytes": 805,
+    "sha256": "90537aab9bbbf2996276c285c8417c1f0e5f6491cd3c21c943a6cce93ebe1bcc"
+  },
+  "code/Reproduction_metadata/Framework_manifest.csv": {
+    "bytes": 1110,
+    "sha256": "cad023125c766deca7ab76a3d1734a5b35b12b8a6d3150bffdf23eb53f764840"
+  },
+  "code/Reproduction_metadata/Input_inventory.csv": {
+    "bytes": 538,
+    "sha256": "7929be8f9c164cd1ff61648cb050df9085ca88c1ef0af74bf8f08bbb9347a8af"
+  },
+  "code/Reproduction_metadata/NA_preservation_check.csv": {
+    "bytes": 82204,
+    "sha256": "823e98c7633eb088f8d72694de1a84de1f4c3977a86887e2812c0ba987b0b53c"
+  },
+  "code/Reproduction_metadata/sessionInfo.txt": {
+    "bytes": 1396,
+    "sha256": "55355b9441924474a89e692636e51f7a43f5dc088d6bc1b5e68a47ed8e11356a"
+  },
+  "code/Reproduction_metadata/settings.R": {
+    "bytes": 612,
+    "sha256": "49adda5299953d094106bf01a728cf05ce8b74b019118fb0c74a85355aec4f80"
+  },
+  "code/upstream/gee_export_monthly_landsat_ndvi_NA.js": {
+    "bytes": 8652,
+    "sha256": "35711edf70d919c0c71613d530befd0c6f8a04962e7063ae1c963b8d942a6541"
+  },
+  "code/upstream/gee_export_monthly_terraclimate.js": {
+    "bytes": 6145,
+    "sha256": "42ffa5a1c19de7af6a37793c804b25f71070fd9ddae3302edcb2ff370566df17"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/logs/COMPLETE.txt": {
+    "bytes": 85,
+    "sha256": "726369cfb9c0c7cb53fe49533c8eb5ae625b3910272e8fda94b7171be5408976"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/logs/console_log.txt": {
+    "bytes": 20350,
+    "sha256": "5c5215f146e7ff9528c6a79917911d68e1309eddf59ce77d5aef01d999178378"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/logs/sessionInfo.txt": {
+    "bytes": 1396,
+    "sha256": "55355b9441924474a89e692636e51f7a43f5dc088d6bc1b5e68a47ed8e11356a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/logs/settings.R": {
+    "bytes": 612,
+    "sha256": "49adda5299953d094106bf01a728cf05ce8b74b019118fb0c74a85355aec4f80"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/logs/warnings_at_completion.txt": {
+    "bytes": 14,
+    "sha256": "aa8f47ff14617f2ba382e8ff880b53074ffa256bef9251ecb6bf4f4590c53aa4"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/All_frameworks_recovery_censoring.csv": {
+    "bytes": 181421,
+    "sha256": "b377ec7c42c4402d222695d0a3f8efeda52d01f1496bec5058e59564e9d903c7"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/All_frameworks_recovery_curves.csv": {
+    "bytes": 1485838,
+    "sha256": "6cc33823c78cfce3a17fc76833dd552bbe34c848425bd170a84b141dcc561c8b"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/All_frameworks_suppression.csv": {
+    "bytes": 62458,
+    "sha256": "3116dccf3d7c521feb77a6b93628e450f239badafa2d797e02db85b9be8f5e62"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Annual_climate_exposure_by_reference.csv": {
+    "bytes": 104311,
+    "sha256": "5d751f3ed84faadcea286f94646c9debea6d074266441bcce8fb86dfbdab1580"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Baseline_eligibility_by_cell.csv": {
+    "bytes": 1805449,
+    "sha256": "855130b273bd6af17323f2828b3e3845c7383f6d30211b64e6ced9c1cbe9ab39"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Climate_flag_agreement_with_primary.csv": {
+    "bytes": 140,
+    "sha256": "9cda3803be1ef4b3f2276380db77db8cffbae58b8980d1106dd622abb13edf6e"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Common_domain_inventory.csv": {
+    "bytes": 305,
+    "sha256": "47e6ae262d3e7c107fb41cd102e4cf4c4ac870f5a5118978f129100fef7f3e01"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Exposure_trend_comparison.csv": {
+    "bytes": 7951,
+    "sha256": "de770785cc54e78d0938889a95eab7a80ee40b9d8cfa61406d16859fb9eca349"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Framework_manifest.csv": {
+    "bytes": 1110,
+    "sha256": "cad023125c766deca7ab76a3d1734a5b35b12b8a6d3150bffdf23eb53f764840"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Framework_output_paths.csv": {
+    "bytes": 1719,
+    "sha256": "0a050c9a094754f5744f7d9e60c6782c0c0da1fb6528d36912322eb0b0f6869a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Input_inventory.csv": {
+    "bytes": 538,
+    "sha256": "7929be8f9c164cd1ff61648cb050df9085ca88c1ef0af74bf8f08bbb9347a8af"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Month_specific_retention_by_elevation.csv": {
+    "bytes": 212,
+    "sha256": "1f24e789369a0bcf3072afcc4d284be3e3dacd9c1c43c36c7265ac718fd0e14f"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/NA_preservation_check.csv": {
+    "bytes": 82204,
+    "sha256": "823e98c7633eb088f8d72694de1a84de1f4c3977a86887e2812c0ba987b0b53c"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Observed_NDVI_with_unestimable_reference.csv": {
+    "bytes": 88305,
+    "sha256": "487cfc67bc07e67dcab5527db586239896858532b8a8e763be24f8298bcf715c"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Raw_monthly_input_audit.csv": {
+    "bytes": 119849,
+    "sha256": "c35ca68fffcb79e6951fe43f80183a422c4ba3c59e23d31ff3465ee954660cb9"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Recovery_differences_from_primary.csv": {
+    "bytes": 269629,
+    "sha256": "55279574874e224c7efe4d2d2f8056d00bf4a7b8bb54a0f2ce9a20283408e208"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Same_event_NDVI_suppression_comparison.csv": {
+    "bytes": 13234,
+    "sha256": "626f6c0a90766fa01ec7bd53e893bdc9c69bee3d5fae9cb4b7754df988844643"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Same_suppressed_cohort_recovery_comparison.csv": {
+    "bytes": 22379,
+    "sha256": "5dd88145508faaf69517aa281b420b1bb66f5ad708fd56eea3b5b51546ee82b6"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Suppression_differences_from_primary.csv": {
+    "bytes": 50112,
+    "sha256": "da97742a6b87656cd4d4d0011b913494fc0f06e5c671a598419c6de121e37159"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/tables/Threshold_ties_and_zero_rainfall_audit.csv": {
+    "bytes": 1250,
+    "sha256": "28913e536ee451c678e18ba4a5131a2932222e6da264d2c2ae3a8dbd324615d9"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/PRIMARY_H14_ORIGINAL/Event_Response_20261014_222130/logs/console_log.txt": {
+    "bytes": 1732,
+    "sha256": "acab57ab4d86b7bc6e48df9f0379e886b0269b98c9ad4a42a13cf673722a6cef"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/PRIMARY_H14_ORIGINAL/Event_Response_20261014_222130/logs/sessionInfo.txt": {
+    "bytes": 1396,
+    "sha256": "55355b9441924474a89e692636e51f7a43f5dc088d6bc1b5e68a47ed8e11356a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/PRIMARY_H14_ORIGINAL/Event_Response_20261014_222130/logs/settings.R": {
+    "bytes": 1108,
+    "sha256": "3a71c9f1f8ddf29eef1ab3f423e7ac7a14d76836ed14520b6ae9566151d0b094"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/PRIMARY_H14_ORIGINAL/Event_Response_20261014_222130/tables/Common_grid_cell_inventory.csv": {
+    "bytes": 916167,
+    "sha256": "086781e2df04a9226bd454adcf142fbbfd54bad6e8e53453100c9f2d5f6849b9"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/PRIMARY_H14_ORIGINAL/Event_Response_20261014_222130/tables/Input_inventory.csv": {
+    "bytes": 640,
+    "sha256": "4009edb61adcc4936f44b63df1ad35f4edd4f6a3291e188cdc54d97b4107be81"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/PRIMARY_H14_ORIGINAL/Event_Response_20261014_222130/tables/Monthly_input_audit.csv": {
+    "bytes": 59329,
+    "sha256": "7c217e583195d8e50533077db44ae3e5e7bf5021e8f27f8f0d8ab112b7fdd583"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/PRIMARY_H14_ORIGINAL/Event_Response_20261014_222130/tables/Recovery_censoring_by_elevation.csv": {
+    "bytes": 9782,
+    "sha256": "a3e8cf059cb35731aa10d5cabf8555e5bd0c02a95052de7a53b4d1a0bffd941f"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/PRIMARY_H14_ORIGINAL/Event_Response_20261014_222130/tables/Recovery_curves_KM_and_competing_HD.csv": {
+    "bytes": 127212,
+    "sha256": "e00de805cdd3eb1accb19eef58aa46915bff983ed49f071aa88548e5adcb75fe"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/PRIMARY_H14_ORIGINAL/Event_Response_20261014_222130/tables/Recovery_eligibility_and_response_completeness.csv": {
+    "bytes": 5495,
+    "sha256": "c825c152d3840383a1d775812edd96e26d290b57eeea4351c10548a09a8cdedf"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/PRIMARY_H14_ORIGINAL/Event_Response_20261014_222130/tables/Suppression_lag_comparison_by_elevation.csv": {
+    "bytes": 3828,
+    "sha256": "581a94e8b19f8e7f052e91d8e973c009f7cb41cbae18410fe0b93f506e00cf4d"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_FULL/Event_Response_20261014_224145/logs/console_log.txt": {
+    "bytes": 1720,
+    "sha256": "f2151a9b8e52381ddf144c394e1d04cb2af41170ac5445167c3b8217d0e24a61"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_FULL/Event_Response_20261014_224145/logs/sessionInfo.txt": {
+    "bytes": 1396,
+    "sha256": "55355b9441924474a89e692636e51f7a43f5dc088d6bc1b5e68a47ed8e11356a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_FULL/Event_Response_20261014_224145/logs/settings.R": {
+    "bytes": 1091,
+    "sha256": "c642bcbf6e43873edc0297e88ba6ddec3bcc66497ddd643942eb8282ab454819"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_FULL/Event_Response_20261014_224145/tables/Common_grid_cell_inventory.csv": {
+    "bytes": 908941,
+    "sha256": "e7a65194699dc7e94e17e63d72889c3f241c8e875ffa06ad7becc5a8449d6335"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_FULL/Event_Response_20261014_224145/tables/Input_inventory.csv": {
+    "bytes": 641,
+    "sha256": "c78ebbcc1525c71209f11baf4aa839eba1f55781713926b6692d6ba431ebe2cc"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_FULL/Event_Response_20261014_224145/tables/Monthly_input_audit.csv": {
+    "bytes": 59247,
+    "sha256": "b4edf6fd9be7207d102fa3b249c20a320943b9cf63362cd11d29d3a3ba1d6176"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_FULL/Event_Response_20261014_224145/tables/Recovery_censoring_by_elevation.csv": {
+    "bytes": 9530,
+    "sha256": "c013bbb498b952b317ed58df965a9bf584a24e892df0b9baca1a38a845c5b2bc"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_FULL/Event_Response_20261014_224145/tables/Recovery_curves_KM_and_competing_HD.csv": {
+    "bytes": 124638,
+    "sha256": "e781bc29256074751e70a381721fd4cea0f967cf104e8695ebb293d1cf086401"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_FULL/Event_Response_20261014_224145/tables/Recovery_eligibility_and_response_completeness.csv": {
+    "bytes": 5071,
+    "sha256": "0ebe654ec95be269d4f782a18e3071c907e8c3037e738db88d5e5c58845ed95d"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_FULL/Event_Response_20261014_224145/tables/Suppression_lag_comparison_by_elevation.csv": {
+    "bytes": 3754,
+    "sha256": "882a33e6f4c7800ca0e99c0f884cf3dc770dcc39d092a27a675e0a4a3b7f6202"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_H04/Event_Response_20261014_223822/logs/console_log.txt": {
+    "bytes": 1718,
+    "sha256": "98a2bd9b70e5b8f40685f7672060dcc7a738c46a4249bf6b85340131a499282b"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_H04/Event_Response_20261014_223822/logs/sessionInfo.txt": {
+    "bytes": 1396,
+    "sha256": "55355b9441924474a89e692636e51f7a43f5dc088d6bc1b5e68a47ed8e11356a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_H04/Event_Response_20261014_223822/logs/settings.R": {
+    "bytes": 1088,
+    "sha256": "48d751e6cf69e065b829e0aeb026e4c25f32d30495e2de9533931e95d419f67e"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_H04/Event_Response_20261014_223822/tables/Common_grid_cell_inventory.csv": {
+    "bytes": 922037,
+    "sha256": "820fe6966f435aa59c81a80105186a31baee34bbf7ac1bd90b2321b0ffc15981"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_H04/Event_Response_20261014_223822/tables/Input_inventory.csv": {
+    "bytes": 640,
+    "sha256": "fc8be2438aff9331fcf28403a5a92a49d5ea4b4a908666bdb7795e58d21e9c6f"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_H04/Event_Response_20261014_223822/tables/Monthly_input_audit.csv": {
+    "bytes": 59337,
+    "sha256": "f5090e21cdd7f849fbc9984bba839532062caa855f40ed351e6c0bc51a3160ad"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_H04/Event_Response_20261014_223822/tables/Recovery_censoring_by_elevation.csv": {
+    "bytes": 9801,
+    "sha256": "a459dee1e998443b14f16f81799b55fc95722f535ffe8cc60944488ee88b02d1"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_H04/Event_Response_20261014_223822/tables/Recovery_curves_KM_and_competing_HD.csv": {
+    "bytes": 126205,
+    "sha256": "ec032862e5b0dedba45eae36396c8bf657db61194a3a31c9aa079a4aa217bac9"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_H04/Event_Response_20261014_223822/tables/Recovery_eligibility_and_response_completeness.csv": {
+    "bytes": 5642,
+    "sha256": "f7ce0aefb61febf4eef6a49387fa935900c4f5b67821f64ce7a9caea057fcc2d"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_CLIMATE_H04/Event_Response_20261014_223822/tables/Suppression_lag_comparison_by_elevation.csv": {
+    "bytes": 3790,
+    "sha256": "5da105d0eb683be76df3a0f550d3ded29214389f4d32d6d7a85ab54c037e585a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_H14_DETRENDED/Event_Response_20261014_222424/logs/console_log.txt": {
+    "bytes": 1634,
+    "sha256": "92457f837ec333c9bae3014cc3ed04da4e3828ff0f09f4c6e9e3dc3837946538"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_H14_DETRENDED/Event_Response_20261014_222424/logs/sessionInfo.txt": {
+    "bytes": 1396,
+    "sha256": "55355b9441924474a89e692636e51f7a43f5dc088d6bc1b5e68a47ed8e11356a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_H14_DETRENDED/Event_Response_20261014_222424/logs/settings.R": {
+    "bytes": 1094,
+    "sha256": "d880c9625a9170eebc3a62c6f9a76ac09ff4499208d008bc7d67c5cf6cca3054"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_H14_DETRENDED/Event_Response_20261014_222424/tables/Common_grid_cell_inventory.csv": {
+    "bytes": 916167,
+    "sha256": "086781e2df04a9226bd454adcf142fbbfd54bad6e8e53453100c9f2d5f6849b9"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_H14_DETRENDED/Event_Response_20261014_222424/tables/Input_inventory.csv": {
+    "bytes": 641,
+    "sha256": "495996e902b2124c770950099e155463cc7802ea751bd46dc44574422fae61b1"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_H14_DETRENDED/Event_Response_20261014_222424/tables/Monthly_input_audit.csv": {
+    "bytes": 59157,
+    "sha256": "a9ccd920468f3b7d2d01dcb4aedf2f6d82096de663c63c58d326448f72361971"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_H14_DETRENDED/Event_Response_20261014_222424/tables/Recovery_censoring_by_elevation.csv": {
+    "bytes": 10045,
+    "sha256": "1ca1c506f41de3f9ecd21a6bf67abff9b6a0bc4efa25c6e335a57549806ad34b"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_H14_DETRENDED/Event_Response_20261014_222424/tables/Recovery_curves_KM_and_competing_HD.csv": {
+    "bytes": 127497,
+    "sha256": "8f89c34cff422eb1cbcd0fdf8977832dff4f4c4c22b5ce5cc7d544b97c953950"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_H14_DETRENDED/Event_Response_20261014_222424/tables/Recovery_eligibility_and_response_completeness.csv": {
+    "bytes": 5681,
+    "sha256": "60f883c1e76b05c3ecc037a21ef9316e08cecf2b287a87d1a8db193b2ccaf3dc"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_H14_DETRENDED/Event_Response_20261014_222424/tables/Suppression_lag_comparison_by_elevation.csv": {
+    "bytes": 3849,
+    "sha256": "f810dec5ecb24d3b89ab5bc938faa04b0485a3b31cde7e798d4e3cf66d4fedc0"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_DETRENDED/Event_Response_20261014_223639/logs/console_log.txt": {
+    "bytes": 1648,
+    "sha256": "402e246eec471ea736f0e08017adcf2f246c08bd26bcc1c83ab93c5e00186aa7"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_DETRENDED/Event_Response_20261014_223639/logs/sessionInfo.txt": {
+    "bytes": 1396,
+    "sha256": "55355b9441924474a89e692636e51f7a43f5dc088d6bc1b5e68a47ed8e11356a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_DETRENDED/Event_Response_20261014_223639/logs/settings.R": {
+    "bytes": 1116,
+    "sha256": "45fb25b5deca56fe98a8ee649a85c0e7abf15ef521cb53a305457175d6389837"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_DETRENDED/Event_Response_20261014_223639/tables/Common_grid_cell_inventory.csv": {
+    "bytes": 908941,
+    "sha256": "e7a65194699dc7e94e17e63d72889c3f241c8e875ffa06ad7becc5a8449d6335"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_DETRENDED/Event_Response_20261014_223639/tables/Input_inventory.csv": {
+    "bytes": 643,
+    "sha256": "1f30f05a8ea55374db8ebdcce16075fbc890e9f7031a6441bd7d077ece8b303b"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_DETRENDED/Event_Response_20261014_223639/tables/Monthly_input_audit.csv": {
+    "bytes": 59072,
+    "sha256": "e74b3d11a96885e3414801815c9e94097295fecf4d807da0d36abab8294e4123"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_DETRENDED/Event_Response_20261014_223639/tables/Recovery_censoring_by_elevation.csv": {
+    "bytes": 9714,
+    "sha256": "89a2bf9f72a7ecf69f652d50151de1984493485307bf6e84d27a73bde4c14cb0"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_DETRENDED/Event_Response_20261014_223639/tables/Recovery_curves_KM_and_competing_HD.csv": {
+    "bytes": 124692,
+    "sha256": "2dc14e2dae7d72e9e6b2d44e7cca4e57dd32d32464a2821a0a9bb041911fffce"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_DETRENDED/Event_Response_20261014_223639/tables/Recovery_eligibility_and_response_completeness.csv": {
+    "bytes": 5181,
+    "sha256": "ff12727d496c9906389a055b32b56e8fed68e6c3fc85fcdca38d4bea0cf5358a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_DETRENDED/Event_Response_20261014_223639/tables/Suppression_lag_comparison_by_elevation.csv": {
+    "bytes": 3795,
+    "sha256": "4ac8098de12847161e7a33e99c4302b60357e053ead8d7d8517240e1b668bd8a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_ORIGINAL/Event_Response_20261014_223500/logs/console_log.txt": {
+    "bytes": 1646,
+    "sha256": "366d7cb205c42569c5c905a018bea21bf2b66d033aa37776bf92f5a1f0f9a417"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_ORIGINAL/Event_Response_20261014_223500/logs/sessionInfo.txt": {
+    "bytes": 1396,
+    "sha256": "55355b9441924474a89e692636e51f7a43f5dc088d6bc1b5e68a47ed8e11356a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_ORIGINAL/Event_Response_20261014_223500/logs/settings.R": {
+    "bytes": 1112,
+    "sha256": "e121438f67a93a28409f0f6edd2bd264cf3fa689db75f4fd5571f781948d2f99"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_ORIGINAL/Event_Response_20261014_223500/tables/Common_grid_cell_inventory.csv": {
+    "bytes": 908941,
+    "sha256": "e7a65194699dc7e94e17e63d72889c3f241c8e875ffa06ad7becc5a8449d6335"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_ORIGINAL/Event_Response_20261014_223500/tables/Input_inventory.csv": {
+    "bytes": 642,
+    "sha256": "88377a47bcd648c72046c9760d381fc5d448af94255908c93aa2c0478c67e0bd"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_ORIGINAL/Event_Response_20261014_223500/tables/Monthly_input_audit.csv": {
+    "bytes": 58942,
+    "sha256": "fc3e1a995c161e549953b5750c3a12a1c31c494abbad3d069f36103fcb30cd41"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_ORIGINAL/Event_Response_20261014_223500/tables/Recovery_censoring_by_elevation.csv": {
+    "bytes": 9419,
+    "sha256": "996770e0a448e2a4c44affc064ad4a6a5db722e520d66ffd80ea14f206b767e4"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_ORIGINAL/Event_Response_20261014_223500/tables/Recovery_curves_KM_and_competing_HD.csv": {
+    "bytes": 123711,
+    "sha256": "5d966823be20049e62f0be3d568013f645babe1176a036f9911a9805b4b2c6d2"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_ORIGINAL/Event_Response_20261014_223500/tables/Recovery_eligibility_and_response_completeness.csv": {
+    "bytes": 5177,
+    "sha256": "dae12b1aa71dc2d6d9a564b869f9ff705a84c7e7b0d23fa8c1327b4e1f0c673e"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_FULL_ORIGINAL/Event_Response_20261014_223500/tables/Suppression_lag_comparison_by_elevation.csv": {
+    "bytes": 3761,
+    "sha256": "f0b83a94df8071ca3ee30943be70be87c9841b90307f194c60c89c9e527d871c"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_DETRENDED/Event_Response_20261014_223112/logs/console_log.txt": {
+    "bytes": 1734,
+    "sha256": "41353067f5df3bfed452e3bbc93e38e8d070ae6c4f6d78dab423147a516d389c"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_DETRENDED/Event_Response_20261014_223112/logs/sessionInfo.txt": {
+    "bytes": 1396,
+    "sha256": "55355b9441924474a89e692636e51f7a43f5dc088d6bc1b5e68a47ed8e11356a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_DETRENDED/Event_Response_20261014_223112/logs/settings.R": {
+    "bytes": 1112,
+    "sha256": "aa2e0be7cb3a8df48a83b7dbfaec4581446ce68b2674c58928ecb2806de0f507"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_DETRENDED/Event_Response_20261014_223112/tables/Common_grid_cell_inventory.csv": {
+    "bytes": 922037,
+    "sha256": "820fe6966f435aa59c81a80105186a31baee34bbf7ac1bd90b2321b0ffc15981"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_DETRENDED/Event_Response_20261014_223112/tables/Input_inventory.csv": {
+    "bytes": 641,
+    "sha256": "f6aab10d8ea43eba0b24213a9891a9c0e685b49ccfdfef5a1898e7d205d5d1f3"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_DETRENDED/Event_Response_20261014_223112/tables/Monthly_input_audit.csv": {
+    "bytes": 59343,
+    "sha256": "a279645722d64355ef2f5179e3eb6a34ea78b1eaa0453b59d8273cbbe19610d7"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_DETRENDED/Event_Response_20261014_223112/tables/Recovery_censoring_by_elevation.csv": {
+    "bytes": 10108,
+    "sha256": "5199f19944d2274ba94e9f5c607c88d664d617eb8e3927df7a849fee6bb9d42f"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_DETRENDED/Event_Response_20261014_223112/tables/Recovery_curves_KM_and_competing_HD.csv": {
+    "bytes": 127764,
+    "sha256": "a9c13a0a3f18d5e6ef3c753ff9e6a6922f376c83f421a418fab9aad9079019cc"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_DETRENDED/Event_Response_20261014_223112/tables/Recovery_eligibility_and_response_completeness.csv": {
+    "bytes": 5747,
+    "sha256": "0b25ce405f653e64c2ce4145588a09acd91dca82ca0dbadf996deaede0f4fd50"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_DETRENDED/Event_Response_20261014_223112/tables/Suppression_lag_comparison_by_elevation.csv": {
+    "bytes": 3872,
+    "sha256": "8c8ce67f3567a0711965480534cae9cfcc2acc53efb885f4bd34e8c48fc38628"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_ORIGINAL/Event_Response_20261014_222742/logs/console_log.txt": {
+    "bytes": 1732,
+    "sha256": "dbb56fee59172aa3962d0dd6000141551ef8b5109432ff5b57306c5b3a8b913d"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_ORIGINAL/Event_Response_20261014_222742/logs/sessionInfo.txt": {
+    "bytes": 1396,
+    "sha256": "55355b9441924474a89e692636e51f7a43f5dc088d6bc1b5e68a47ed8e11356a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_ORIGINAL/Event_Response_20261014_222742/logs/settings.R": {
+    "bytes": 1108,
+    "sha256": "1b21d7b54da03699f8fd508cb43e169f262666e30662bbd03c6c74dab104feaa"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_ORIGINAL/Event_Response_20261014_222742/tables/Common_grid_cell_inventory.csv": {
+    "bytes": 922037,
+    "sha256": "820fe6966f435aa59c81a80105186a31baee34bbf7ac1bd90b2321b0ffc15981"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_ORIGINAL/Event_Response_20261014_222742/tables/Input_inventory.csv": {
+    "bytes": 640,
+    "sha256": "9c8e1a915f27da58bc13a60553b0d4ef65ce340ba3eaacb317af5214652f56ab"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_ORIGINAL/Event_Response_20261014_222742/tables/Monthly_input_audit.csv": {
+    "bytes": 60934,
+    "sha256": "fb1d61828ce6eb89ec90ab803d532e4312bdae0c7fd0e2158e532554b525685b"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_ORIGINAL/Event_Response_20261014_222742/tables/Recovery_censoring_by_elevation.csv": {
+    "bytes": 9951,
+    "sha256": "4e7fee5d3ff27296df9e98f1e5d251f838f7edb748e9136650a384ae455e76e7"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_ORIGINAL/Event_Response_20261014_222742/tables/Recovery_curves_KM_and_competing_HD.csv": {
+    "bytes": 127699,
+    "sha256": "3f853d452d5c56b0e2147872373cbfdc506fde3f6f668b27dfa279b1d37b9e24"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_ORIGINAL/Event_Response_20261014_222742/tables/Recovery_eligibility_and_response_completeness.csv": {
+    "bytes": 5636,
+    "sha256": "5e88d6f711a12749f81d623c161e045098a5d4ebcb669b407196943e7036c2fc"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_MATCH_H04_ORIGINAL/Event_Response_20261014_222742/tables/Suppression_lag_comparison_by_elevation.csv": {
+    "bytes": 3838,
+    "sha256": "e2e403b5d6461bed510d4eb90b03c9f0da5ff8370b964f3a9a208067207d3c70"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_FULL/Event_Response_20261014_224559/logs/console_log.txt": {
+    "bytes": 1626,
+    "sha256": "4666b5df2f7f7ff4a3d1f5cac009efaaa3186bf0cbcf2b8c0f25f0b3ed7d8ed5"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_FULL/Event_Response_20261014_224559/logs/sessionInfo.txt": {
+    "bytes": 1396,
+    "sha256": "55355b9441924474a89e692636e51f7a43f5dc088d6bc1b5e68a47ed8e11356a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_FULL/Event_Response_20261014_224559/logs/settings.R": {
+    "bytes": 1085,
+    "sha256": "64636bb4f62782e85f38618dbbb334af464f3951cbb0b4996dd7f1a5a7bbd9f7"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_FULL/Event_Response_20261014_224559/tables/Common_grid_cell_inventory.csv": {
+    "bytes": 916167,
+    "sha256": "086781e2df04a9226bd454adcf142fbbfd54bad6e8e53453100c9f2d5f6849b9"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_FULL/Event_Response_20261014_224559/tables/Input_inventory.csv": {
+    "bytes": 641,
+    "sha256": "d6a89df6cbd26768c54d37a007c05b18c5a593069e08d39868d5891eb54d826e"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_FULL/Event_Response_20261014_224559/tables/Monthly_input_audit.csv": {
+    "bytes": 59024,
+    "sha256": "990922a3d53e8bf0685b7e4acc3e371704b0fda660f8a55a64c51a0db3084973"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_FULL/Event_Response_20261014_224559/tables/Recovery_censoring_by_elevation.csv": {
+    "bytes": 9816,
+    "sha256": "64ce937c292a34b24b1ee5f7408f9645d55b9180bfa2b22d875d7aaa53a48c57"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_FULL/Event_Response_20261014_224559/tables/Recovery_curves_KM_and_competing_HD.csv": {
+    "bytes": 127141,
+    "sha256": "59690448ef896ad3049febface18ca99366f0c44b7840ab812098fc4f6eee0db"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_FULL/Event_Response_20261014_224559/tables/Recovery_eligibility_and_response_completeness.csv": {
+    "bytes": 5497,
+    "sha256": "5c8c8c94b533142cbf473f8a0c5eea6165c3eb9cb1b7f7b50658f265032d32e7"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_FULL/Event_Response_20261014_224559/tables/Suppression_lag_comparison_by_elevation.csv": {
+    "bytes": 3835,
+    "sha256": "c2e72ac65e5706c697c4b003eb7951885dcebf52853ca35a83268b3c7bed90ed"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_H04/Event_Response_20261014_224315/logs/console_log.txt": {
+    "bytes": 1712,
+    "sha256": "4e12f4865c395c133bb3657e5994dabc82c7ff0443c94dcd872e54878fb488bd"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_H04/Event_Response_20261014_224315/logs/sessionInfo.txt": {
+    "bytes": 1396,
+    "sha256": "55355b9441924474a89e692636e51f7a43f5dc088d6bc1b5e68a47ed8e11356a"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_H04/Event_Response_20261014_224315/logs/settings.R": {
+    "bytes": 1082,
+    "sha256": "5f1a54e11a875a9e1ba950debed88b8984a2b5e51844f654a8d91cab9dee759c"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_H04/Event_Response_20261014_224315/tables/Common_grid_cell_inventory.csv": {
+    "bytes": 916167,
+    "sha256": "086781e2df04a9226bd454adcf142fbbfd54bad6e8e53453100c9f2d5f6849b9"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_H04/Event_Response_20261014_224315/tables/Input_inventory.csv": {
+    "bytes": 640,
+    "sha256": "9b0f30c1fecdb8093a299e40a0c082ae1d05a5fcbb877ed5cd31dbfa6c52dce0"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_H04/Event_Response_20261014_224315/tables/Monthly_input_audit.csv": {
+    "bytes": 60926,
+    "sha256": "ae3efd5a30bc2a9262b8876083cdb145f4bdb59f6bbf25f8c82141b99dc12334"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_H04/Event_Response_20261014_224315/tables/Recovery_censoring_by_elevation.csv": {
+    "bytes": 9945,
+    "sha256": "a4bf799662dda1f409f46d99c95bb132dd33cd905e9ee61f98957ed726131260"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_H04/Event_Response_20261014_224315/tables/Recovery_curves_KM_and_competing_HD.csv": {
+    "bytes": 127728,
+    "sha256": "bfe06a147df0fc333daf0e8e22879c4d7b9527d8bc317ca6897bb2566128f3c5"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_H04/Event_Response_20261014_224315/tables/Recovery_eligibility_and_response_completeness.csv": {
+    "bytes": 5552,
+    "sha256": "c702bde7d0947b170e985226afe1a89dd42492dace6b8572e1b0b5da4a571a78"
+  },
+  "run_outputs/09_R1C2_Primary_and_Sensitivity/frameworks/S_NDVI_H04/Event_Response_20261014_224315/tables/Suppression_lag_comparison_by_elevation.csv": {
+    "bytes": 3814,
+    "sha256": "aa5ae6330ba670cebda739c77e1c8ed09a2503896c60ebca5e9dc9a4e6547f32"
+  },
+  "tables/Primary_reproduction_source_tables/Annual_climate_exposure_by_reference.csv": {
+    "bytes": 104311,
+    "sha256": "5d751f3ed84faadcea286f94646c9debea6d074266441bcce8fb86dfbdab1580"
+  },
+  "tables/Primary_reproduction_source_tables/Exposure_trend_comparison.csv": {
+    "bytes": 7951,
+    "sha256": "de770785cc54e78d0938889a95eab7a80ee40b9d8cfa61406d16859fb9eca349"
+  },
+  "tables/Primary_reproduction_source_tables/Recovery_censoring_by_elevation.csv": {
+    "bytes": 9782,
+    "sha256": "a3e8cf059cb35731aa10d5cabf8555e5bd0c02a95052de7a53b4d1a0bffd941f"
+  },
+  "tables/Primary_reproduction_source_tables/Recovery_eligibility_and_response_completeness.csv": {
+    "bytes": 5495,
+    "sha256": "c825c152d3840383a1d775812edd96e26d290b57eeea4351c10548a09a8cdedf"
+  },
+  "tables/Primary_reproduction_source_tables/Suppression_lag_comparison_by_elevation.csv": {
+    "bytes": 3828,
+    "sha256": "581a94e8b19f8e7f052e91d8e973c009f7cb41cbae18410fe0b93f506e00cf4d"
+  }
+}

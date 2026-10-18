@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the study and the existing data and code record."
+type: dataset
+title: "Compound Heat–Drought Extremes in Pakistan (1985–2025): Separating Climatic Exposure from Observed NDVI Response"
+authors:
+  - family-names: Adnan
+    given-names: M.
+  - family-names: Alrehaili
+    given-names: A.
+  - family-names: Alhumidan
+    given-names: S.
+  - family-names: Alotaibi
+    given-names: M. M.
+  - family-names: Mubushar
+    given-names: M.
+  - family-names: Shahzad
+    given-names: F.
+  - family-names: Du
+    given-names: Z.
+  - family-names: Yue
+    given-names: T.
+doi: 10.5281/zenodo.21821042
+license: CC-BY-4.0

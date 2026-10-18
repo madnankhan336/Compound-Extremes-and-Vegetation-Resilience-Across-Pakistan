@@ -1,0 +1,6 @@
+elevation_belt,diagnostic_cells,paired_cell_months_six_years,minimum_yearly_mean_P75_minus_P50,maximum_yearly_mean_P75_minus_P50,minimum_yearly_NA_percent,maximum_yearly_NA_percent
+<500 m,13788,885198,0.0043,0.0139,2.8,25.7
+500-1499 m,9192,552771,0.0027,0.0084,6.3,34.3
+1500-2499 m,4596,239846,0.0018,0.0055,14.9,47.9
+2500-3499 m,2298,95192,0.0017,0.0054,30.6,61.0
+>=3500 m,2955,68468,0.0024,0.0075,60.6,78.8

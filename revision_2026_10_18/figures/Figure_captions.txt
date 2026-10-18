@@ -1,0 +1,46 @@
+Figure 1. Study area and elevation stratification of Pakistan. Belt boundaries are 500, 1500, 2500 and 3500 m; each boundary belongs to the higher belt. The national boundary defines the analysis domain.
+
+Figure 2. Historical pixel-level hot-wet (A-C) and hot-dry (D-F) summaries under the earlier event and reference definitions. Frequency, within-event NDVI-based resistance proxy and observed-return recovery are retained for context. The recovery panels do not display the revised suppressed-event Kaplan-Meier estimates, and visual elevation differences are not independent altitude effects. Current primary results are reported in Tables S25-S27 and Figure S15.
+
+Figure 3. Historical hot-dry versus single-event resistance proxy contrast, defined by Equation 8. Negative values indicate lower average resistance proxy for hot-dry events than for the more suppressive single-event category at that pixel. Event categories are unmatched for timing, severity and antecedent conditions; the map does not demonstrate synergistic interaction.
+
+Figure 4. Historical precipitation-threshold pixel summaries retained from the earlier analysis. Frequency, within-event NDVI-based resistance proxy and observed-return recovery use that analysis definition. The recovery panel is not a censored primary estimate and does not demonstrate uniformly rapid recovery. Updated primary and baseline sensitivities are tabulated in Table 2 and Tables S25-S28.
+
+Figure 5. Historical GOSIF-minus-NDVI observed-return recovery comparison for common-grid events in 2001-2024. Positive values indicate a longer functional than spectral return under that earlier definition. This supporting comparison uses a separate cohort and seasonal reference and is not an independent validation of the revised primary censored recovery estimate (Table S14).
+
+Figure S1. Area affected by extreme-month classes across Pakistan (1985–2025).
+(A) National monthly area affected (km²) by hot–dry (HD), hot–wet (HW), hot-only, and dry-only months, computed by summing grid-cell surface area flagged each month.
+(B) Elevation-zone monthly area affected (km²) for HD and HW months across five elevation regimes (<500, 500–1500, 1500–2500, 2500–3500, ≥3500 m a.s.l.). Areas are calculated on the analysis grid using cell-wise surface area to account for geographic distortion.
+
+Figure S2. Event-aligned NDVI′ trajectories under hot–dry events by elevation regime.
+NDVI anomalies (calendar-month z-scores) are aligned to HD event termination (lag 0) and summarised for each elevation band over a fixed pre-event (−6 months) and post-event (+12 months) window. Solid lines indicate the mean trajectory across events; shaded ribbons indicate the interquartile range (IQR). The horizontal reference line denotes baseline conditions (z = 0).
+
+Figure S3. Historical model contribution patterns for the leading SHAP predictors in the environment-only Random Forest model of hot–dry (HD) resistance proxy. Panels show SHAP dependence relationships between each predictor and its SHAP contribution to predicted HD resistance proxy (NDVI anomaly z-score), based on the SHAP prediction contributions sample. Points represent individual HD events (or event-sampled records), and the smoothed curve summarises the average fitted-model contribution across the predictor range. Positive SHAP values indicate an increase in predicted resistance proxy (less NDVI suppression), whereas negative values indicate a lower fitted resistance proxy value. Predictors shown are elevation (elev_m), antecedent vegetation state (ndvi_pre), maximum temperature during HD months (tmax_mean), and climatic water balance during HD months (wb_mean).
+
+Figure S4. Sensitivity of pixel-wise hot–dry (HD) exposure and resistance proxy to alternative event definitions. (A) Fraction of valid pixels experiencing ≥1 HD event under each scenario. (B) Median pixel-wise resistance proxy (NDVI′ z-score; mean within-event minimum per pixel) across scenarios. Scenarios vary the hot/dry percentile thresholds and the dryness proxy (precipitation, climatic water balance, or combined VPD–soil limitation).
+
+Figure S5. Detrended hot-dry resistance proxy and the spatial effect of detrending.
+
+Figure S6. Temporal holdout validation of historical hot-dry resistance-proxy models trained on 1985–2014 and tested on 2015–2025, with and without antecedent NDVI for environment-only and spatially augmented Random Forests. All models use the same 43,720 test events. Negative R² means poorer performance than the test-period mean.
+
+Figure S7. National hot-dry affected-area trend.
+
+Figure S8. Continuous Gaussian-copula severity trend.
+
+Figure S9. Functional-minus-spectral recovery across elevation belts.
+
+Figure S10. Monthly SWE disappearance proxy and high-elevation recovery.
+
+Figure S11. Monthly NDVI valid-pixel coverage and sensor-era transitions.
+
+Figure S12. Continuous severity and residual 2013 sensor-era step maps.
+
+Figure S13. Colour-coded predictor importance and SHAP prediction contributions for hot-dry resistance proxy models. (A) Environment-only permutation importance. (B) Spatial-model permutation importance. (C) Global mean absolute SHAP importance. (D) SHAP contribution distributions. These are descriptive associations and are not interpreted as temporally transferable prediction.
+
+Figure S14. Spatial prediction and driver diagnostics for hot–dry resistance proxy under typical hot–dry conditions across Pakistan. (A) Median predicted resistance proxy (p50; NDVI anomaly z-score) from the quantile regression forest. (B) Predictive dispersion quantified as the interdecile width (p90–p10; z-score units). (C) Largest model contribution defined as the predictor with the largest absolute SHAP contribution (max |SHAP|) for the attribution sample (n ≈ 6000), mapped to sampled pixels. (D) Typical hot–dry climatic water balance (pr − PET; mm month⁻¹) summarised over HD months and used as a key predictor layer. Blank areas denote masked or missing grid cells.
+
+Figure S15. Primary matched response-lag suppression and national censored recovery. Panel A holds events constant across lag windows. Panel B shows Kaplan-Meier confirmed-recovery probability with pixel-clustered 95% intervals from the later of event end and the NDVI minimum. Censoring may be informative; this curve is not a guarantee of representative recovery for every ecological context.
+
+Figure S16. Reported raw offsets and gridded sensor-era steps expressed relative to interannual NDVI SD. Standardized shifts illustrate variance sensitivity. Signs and magnitudes refer to the supplied diagnostic, not the targeted-chip B-A convention in Table S37.
+
+Figure S17. Selected-year sensitivity of monthly NDVI to P75 versus P50 compositing. (A) Cell-area-weighted yearly mean raw NDVI differences by elevation belt, in 0.001 NDVI units. (B) Missing cell-month percentages for the same years and belts; rows share the elevation labels in panel A. (C) Cell-area-weighted monthly mean raw NDVI differences in 2018. (D) Percentage of diagnostic cells meeting the observation and 10% valid-pixel coverage criteria in each month of 2018, calculated from the reported cell and NA counts. Differences describe available observations. Missing observations remain NA.

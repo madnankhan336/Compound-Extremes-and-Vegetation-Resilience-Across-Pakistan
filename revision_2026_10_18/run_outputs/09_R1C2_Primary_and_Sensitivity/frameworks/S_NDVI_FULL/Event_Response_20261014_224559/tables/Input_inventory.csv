@@ -1,0 +1,4 @@
+input,path,bytes,modified,md5
+ndvi_file,E:/proj-china/AdnanB/Dataset/netcdfs/analysis_outputs/09_R1C2_Monthwise_v2_20261014_221940/rasters/NDVI_FULL_original.tif,114403782,2026-10-14 22:21:23.830465,32ccf036849c3a8415cd50d79c0efc00
+hd_file,E:/proj-china/AdnanB/Dataset/netcdfs/analysis_outputs/09_R1C2_Monthwise_v2_20261014_221940/rasters/HD_H14.tif,1223826,2026-10-14 22:21:23.611162,1cb5b394a8d887dd9c65b5a3835c8136
+elevation_file,E:/proj-china/AdnanB/Dataset/netcdfs/analysis_outputs/09_R1C2_Monthwise_v2_20261014_221940/rasters/elevation_common_framework_domain.tif,197072,2026-10-14 22:21:24.034624,b40c4dfd9b7c74c0ab0345cc9b3028af
