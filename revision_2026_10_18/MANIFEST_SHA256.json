@@ -12,12 +12,12 @@
     "sha256": "48ab1b266402d7e948967f3714bd64df6fa1737859bac8cd0724e3667599b016"
   },
   "CITATION.cff": {
-    "bytes": 677,
-    "sha256": "e2210ee4a9228d346b3977ddbfa3d176e654b439eb2863e9a0ec050d575842c1"
+    "bytes": 735,
+    "sha256": "c6f14fba18b2f4d10d93b992fb11ab4860ff734e3d549aad4e2a12751d49df2d"
   },
   "README.md": {
-    "bytes": 4615,
-    "sha256": "1d7d63e74bd48ea6d20a6607097da0650ee229d5c59d3c4b25a4774603500895"
+    "bytes": 4673,
+    "sha256": "24a9212d4769d4fabaa90ee7f66058ed6384b448b2eaeb9cab9c01e2b62359c3"
   },
   "code/08_HD_R1C1_Lag_Recovery_Revised.R": {
     "bytes": 38689,
@@ -44,8 +44,8 @@
     "sha256": "cbb3d23c1847c802800bb081029964edf2ebdfb670b74ce659631772ab7a0338"
   },
   "documents/Manuscript_Clean.docx": {
-    "bytes": 1307925,
-    "sha256": "948e808d13806832b940d4156f05b05dfde001dd3fb14f00640b8dded9d763b6"
+    "bytes": 1307934,
+    "sha256": "96669e88cad2b197e9c51e801cea6941211aae69039d2206f31b2ffe5380a680"
   },
   "documents/Supplementary_Clean.docx": {
     "bytes": 8437334,

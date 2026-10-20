@@ -1,6 +1,6 @@
 # Revised data and code for the Pakistan vegetation assessment
 
-Compound Heat–Drought Extremes in Pakistan (1985–2025): Separating Climatic Exposure from Observed NDVI Response
+Compound Heat–Drought Extremes and Vegetation Response: Separating Climatic Exposure from Ecosystem Impact — A National Landsat NDVI Assessment for Pakistan (1985–2025)
 
 This folder contains the 18 October 2026 revision. The repository's original files remain available alongside it. Use this folder for the revised primary lagged-response and censored-recovery results.
 

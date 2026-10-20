@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite the study and the existing data and code record."
 type: dataset
-title: "Compound Heat–Drought Extremes in Pakistan (1985–2025): Separating Climatic Exposure from Observed NDVI Response"
+title: "Compound Heat–Drought Extremes and Vegetation Response: Separating Climatic Exposure from Ecosystem Impact — A National Landsat NDVI Assessment for Pakistan (1985–2025)"
 authors:
   - family-names: Adnan
     given-names: M.
